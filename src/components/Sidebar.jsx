@@ -31,7 +31,7 @@ function Sidebar() {
   const sidebarItems = [
     { id: 1, name:"Home", icon: <GoHome /> },
     { id: 2, name:"Shorts", icon: <SiYoutubeshorts /> },
-    { id: 3, name:"Subscribtion", icon: <MdOutlineSubscriptions /> },
+    { id: 3, name:"Subscribtions", icon: <MdOutlineSubscriptions /> },
   ];
 
   const sidebarItems2 = [
@@ -71,8 +71,9 @@ function Sidebar() {
     { id: 4, name: "Send feedback", icon: <MdOutlineFeedback /> },
   ];
 
+  
   return (
-    <div className="px-6 w-[31%] h-[calc(100vh-6.625rem)] overflow-y-scroll overflow-x-hidden">
+    <div className="px-6 w-[34%] h-[calc(100vh-6.625rem)] overflow-y-scroll overflow-x-hidden">
       {/* Home */}
       <div className="space-y-3 items-center">
         {sidebarItems.map((item) => (
